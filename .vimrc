@@ -1,5 +1,4 @@
 " my vim settings
-" Author: yuya aoki
 "	and Fujie lab members
 
 set number
@@ -88,10 +87,10 @@ filetype plugin indent on
 
 
 "下の猫がうっとおしかったらこことNeoBundleの部分を消してください
-set laststatus=2
-set statusline=%F%m%r%h%w[%{&ff}]%=%{g:NyanModoki()}(%l,%c)[%P]
-let g:nyan_modoki_select_cat_face_number = 2
-let g:nayn_modoki_animation_enabled= 1
+"set laststatus=2
+"set statusline=%F%m%r%h%w[%{&ff}]%=%{g:NyanModoki()}(%l,%c)[%P]
+"let g:nyan_modoki_select_cat_face_number = 2
+"let g:nayn_modoki_animation_enabled= 1
 
 syntax on
 colorscheme badwolf
